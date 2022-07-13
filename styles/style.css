@@ -22,3 +22,12 @@ h2 {
   line-height: 1.8;
   padding-left: 30px;
 }
+
+.intro {
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  height: 250px;
+  margin: 0auto;
+  width: 380px;
+  padding-top: 5px;
+}
