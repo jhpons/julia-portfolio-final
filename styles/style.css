@@ -6,21 +6,7 @@
 
 body {
   background-color: black;
-}
-h1 {
-  font-family: var(--heading-font-family);
   color: var(--primary-color);
-  font-size: 70px;
-  font-weight: light;
-  padding-left: 30px;
-  padding-top: 30px;
-}
-h2 {
-  font-family: var(--default-font-family);
-  color: var(--primary-color);
-  font-size: 30px;
-  line-height: 1.8;
-  padding-left: 30px;
 }
 
 .intro {
@@ -29,5 +15,69 @@ h2 {
   height: 250px;
   margin: 0auto;
   width: 380px;
-  padding-top: 5px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.intro h1 {
+  font-family: var(--heading-font-family);
+  font-size: 70px;
+  font-weight: light;
+  padding-top: 3px;
+  padding-left: 30px;
+}
+
+.intro h2 {
+  font-family: var(--default-font-family);
+  font-size: 30px;
+  line-height: 1.8;
+  padding-left: 30px;
+}
+
+.branding {
+  border: 2px solid white;
+  color: white;
+  opacity: 0.8;
+  margin-top: 30px;
+  padding: 12px;
+}
+
+.hook {
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 30px;
+}
+
+img {
+  width: 300px;
+  border: 1px solid white;
+}
+
+@media (max-width: 850px) {
+  .intro h1 {
+    font-size: 40px;
+  }
+  .intro h2 {
+    font-size: 20px;
+  }
+  .intro {
+    height: 170px;
+    width: 270px;
+  }
+  img {
+    display: none;
+  }
+  .hook {
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  p {
+    padding-right: 20px;
+  }
+}
+
+p {
+  line-height: 1.8;
+  font-family: var(--default-font-family);
 }
