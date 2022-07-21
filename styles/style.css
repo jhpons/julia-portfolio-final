@@ -1,21 +1,21 @@
 :root {
   --primary-color: white;
-  --heading-font-family: "Mukta", sans-serif;
+  --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Raleway", sans-serif;
 }
 
 body {
   background-color: black;
   color: var(--primary-color);
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .intro {
-  border-right: 3px solid white;
-  border-bottom: 3px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
   height: 250px;
-  margin: 0auto;
   width: 380px;
-  padding-left: 20px;
   padding-top: 20px;
 }
 
@@ -24,14 +24,12 @@ body {
   font-size: 70px;
   font-weight: light;
   padding-top: 3px;
-  padding-left: 30px;
 }
 
 .intro h2 {
   font-family: var(--default-font-family);
   font-size: 30px;
   line-height: 1.8;
-  padding-left: 30px;
 }
 
 .branding {
@@ -45,7 +43,27 @@ body {
 .hook {
   font-weight: bolder;
   text-align: left;
-  padding-left: 30px;
+}
+
+.about-title h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  font-weight: light;
+  padding-top: 3px;
+  border-bottom: 2px solid white;
+  height: 100px;
+  width: 380px;
+}
+
+.about-title h2 {
+  font-size: 20px;
+  font-family: var(--default-font-family);
+  line-height: 1.8;
+}
+
+.about-title img {
+  width: 220px;
+  margin: 90px;
 }
 
 img {
@@ -63,6 +81,29 @@ img {
   .intro {
     height: 170px;
     width: 270px;
+  }
+  .about-title img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-title h1 {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    height: 100px;
+    width: 100%;
+  }
+  .about-title h2 {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .about-title p {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  .about-me-button {
+    text-align: center;
   }
   img {
     display: none;
