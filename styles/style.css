@@ -45,7 +45,7 @@ body {
   text-align: left;
 }
 
-.about-title h1 {
+.content-container h1 {
   font-family: "Poppins", sans-serif;
   font-size: 70px;
   font-weight: light;
@@ -55,13 +55,13 @@ body {
   width: 380px;
 }
 
-.about-title h2 {
+.content-container h2 {
   font-size: 20px;
   font-family: var(--default-font-family);
   line-height: 1.8;
 }
 
-.about-title img {
+.content-container img {
   width: 220px;
   margin: 90px;
 }
@@ -82,23 +82,23 @@ img {
     height: 170px;
     width: 270px;
   }
-  .about-title img {
+  .content-container img {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .about-title h1 {
+  .content-container h1 {
     text-align: center;
     font-size: 50px;
     border-bottom: 2px solid white;
     height: 100px;
     width: 100%;
   }
-  .about-title h2 {
+  .content-container h2 {
     padding: 0px 20px;
     text-align: center;
   }
-  .about-title p {
+  .content-container p {
     padding: 0px 20px;
     text-align: center;
   }
