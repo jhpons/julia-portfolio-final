@@ -1,5 +1,6 @@
 :root {
   --primary-color: white;
+  --secondary-color: #395757;
   --heading-font: "Poppins", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 }
@@ -38,9 +39,11 @@ img {
   width: 200px;
 }
 .branding {
+  font-family: var(--secondary-font);
   border: 2px solid white;
-  color: white;
-  opacity: 0.8;
+  color: black;
+  background-color: white;
+  opacity: 80%;
   margin-top: 30px;
   padding: 12px;
 }
@@ -57,7 +60,6 @@ img {
   font-family: var(--heading-font);
   font-size: 50px;
   font-weight: light;
-  margin: 70px;
 }
 
 .work-container h3 {
@@ -71,7 +73,13 @@ img {
   font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 25px;
-  margin-top: 80px;
+}
+.work-container .contact-links a {
+  text-decoration: none;
+  color: white;
+}
+.work-container .contact-links {
+  margin-left: 100px;
 }
 .logo {
   max-width: 40px;
@@ -94,7 +102,7 @@ nav a {
 }
 nav a:hover,
 nav li.active a {
-  color: #395757;
+  color: var(--secondary-color);
 }
 nav ul {
   margin: 0;
@@ -116,7 +124,7 @@ footer .email-link:hover {
 }
 footer .social-links a {
   margin: 0 20px;
-  color: #395757;
+  color: var(--secondary-color);
   background-color: white;
   padding: 10px 14px;
   font-size: 18px;
@@ -124,7 +132,7 @@ footer .social-links a {
   transition: all 130ms ease-in-out;
 }
 footer .social-links a:hover {
-  background-color: #395757;
+  background-color: var(--secondary-color);
   color: white;
 }
 footer .contact-box {
@@ -142,10 +150,7 @@ h5 {
   font-size: 30px;
   font-weight: bold;
 }
-.contact-links a {
-  text-decoration: none;
-  color: white;
-}
+
 @media (max-width: 850px) {
   h1 {
     font-size: 40px;
@@ -180,7 +185,9 @@ h5 {
 
   .work-container h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 34px;
+    margin: 0;
+    padding-bottom: 50px;
   }
   .work-container h4 {
     font-size: 20px;
@@ -188,5 +195,8 @@ h5 {
   }
   .work-container p {
     text-align: center;
+  }
+  .work-container .contact-links {
+    margin: 0;
   }
 }
