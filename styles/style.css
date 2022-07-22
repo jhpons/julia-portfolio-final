@@ -71,6 +71,37 @@ img {
   font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 25px;
+  margin-top: 80px;
+}
+.logo {
+  max-width: 40px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  opacity: 70%;
+  transition: all 130ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: #395757;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  padding: 40px 0px;
 }
 
 @media (max-width: 850px) {
@@ -79,6 +110,9 @@ img {
   }
   h2 {
     font-size: 20px;
+  }
+  nav a {
+    font-size: 12px;
   }
 
   .content-container h1 {
