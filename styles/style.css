@@ -58,7 +58,8 @@ img {
 }
 .work-container h1 {
   font-family: var(--heading-font);
-  font-size: 50px;
+  font-size: 40px;
+  line-height: 1.8;
   font-weight: light;
 }
 
