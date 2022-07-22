@@ -147,6 +147,16 @@ footer .contact-box {
 footer .branding {
   margin-top: 14px;
 }
+footer p {
+  font-size: 14px;
+  text-align: center;
+}
+footer a {
+  color: var(--primary-color);
+}
+footer a:hover {
+  color: var(--primary-color);
+}
 h5 {
   font-size: 30px;
   font-weight: bold;
