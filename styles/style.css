@@ -142,7 +142,10 @@ h5 {
   font-size: 30px;
   font-weight: bold;
 }
-
+.contact-links a {
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 850px) {
   h1 {
     font-size: 40px;
