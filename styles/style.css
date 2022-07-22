@@ -103,6 +103,46 @@ nav ul {
 nav {
   padding: 40px 0px;
 }
+footer .email-link {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: #395757;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: #395757;
+  background-color: white;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 130ms ease-in-out;
+}
+footer .social-links a:hover {
+  background-color: #395757;
+  color: white;
+}
+footer .contact-box {
+  font-family: var(--secondary-font);
+  background-color: #202020;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer .branding {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+h5 {
+  font-size: 30px;
+  font-weight: bold;
+}
 
 @media (max-width: 850px) {
   h1 {
